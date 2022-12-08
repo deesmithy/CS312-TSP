@@ -177,3 +177,8 @@ class City:
 
 		return int(math.ceil(cost * self.MAP_SCALE))
 
+	def getIndex(self):
+		return self._index
+
+	def getName(self):
+		return self._name
